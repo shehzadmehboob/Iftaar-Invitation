@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iftaar Invitation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: linear-gradient(135deg, #097961, #020024);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        overflow-y: auto;
+      }
+
+      .container {
+        background: #fff;
+        border-radius: 20px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        width: 90%;
+        max-width: 800px;
+        text-align: center;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .title {
+        font-size: 2.8rem;
+        color: #097961;
+        margin-bottom: 20px;
+        font-weight: 700;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .highlight {
+        color: #097961;
+        font-weight: 700;
+        background: linear-gradient(90deg, #097961, #020024);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .main-text {
+        font-size: 1.1rem;
+        color: #333;
+        margin-bottom: 20px;
+        line-height: 1.8;
+      }
+
+      .bold {
+        font-weight: 700;
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+      .closing {
+        font-size: 1.2rem;
+        color: #020024;
+        margin-top: 30px;
+        font-weight: 700;
+        animation: slideIn 1s ease-in-out;
+      }
+
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+
+      .timer {
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: #097961;
+        margin-top: 20px;
+        animation: bounce 2s infinite;
+      }
+
+      @keyframes bounce {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        animation: slideIn 1s ease-in-out;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        border: 1px solid #ddd;
+        text-align: center;
+      }
+
+      th {
+        background: linear-gradient(135deg, #097961, #020024);
+        color: white;
+        font-weight: 700;
+      }
+
+      .donation {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #097961;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+
+      .venue {
+        margin-top: 15px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: #020024;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+
+      @media (max-width: 768px) {
+            .background-container {
+                width: 200px;
+                height: 200px !important;
+                background-size: contain;
+                background-position: center;
+            }
+        }
+
+      @media (max-width: 600px) {
+        .title {
+          font-size: 2rem;
+        }
+
+        .main-text {
+          font-size: 1rem;
+        }
+
+        .closing {
+          font-size: 1rem;
+        }
+
+        .timer {
+          font-size: 1.2rem;
+        }
+      }
+      .background-container {
+            width: 100%;
+            height: 500px; /* Full height of the viewport */
+            background-image: url('img.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">RIYALS DAWAT ANNOUNCEMENT (NOT FOR NON-MEHRAMS)</h1>
+      <div class="background-container">
+      </div>
+      <p class="main-text">
+        <span class="highlight"
+          >Attention all hostel boys and ghar wali Awaam</span
+        >
+      </p>
+      <p class="main-text">
+        Guess what, We are hosting an epic Iftar this Monday, and you’re all
+        <span class="bold">officially</span> invited.
+        <span class="italic">But hold up,</span> You will have to pay for that.
+      </p>
+      <p class="main-text">
+        <span class="highlight">Shehzad, Rafi, Usman, and Sarim are already locked in.</span>
+
+        <br><br>There will also be a halal jamming session after iftar, for which you need to come prepared with
+        <span class="bold">Waludu dan danali wa toblu tob tob tobali Tob tobi tob tob tobi tob tob tobi tob tob tobali.</span>
+      <p class="main-text">
+        If your name doesn’t start with Daniyal, Abdul Haseeb you’re expected
+        to show up. No excuses.
+      </p>
+      <p class="main-text">
+        So, who’s in? <span class="bold">Confirm below</span>, or you’ll be
+        eating the same fries alone on your couch with zero friends to blame but
+        yourself.
+      </p>
+
+      <h2 class="timer">Time Until Iftar: <span id="iftar-timer"></span></h2>
+
+      <h2 class="title">Menu</h2>
+
+      <table>
+        <tr>
+          <th colspan="2">Iftaar</th>
+        </tr>
+        <tr>
+          <td>Dates</td>
+          <td>Juices</td>
+        </tr>
+        <tr>
+          <td>Samosy</td>
+          <td>Pakory</td>
+        </tr>
+        <tr>
+          <td>Dahi Bally</td>
+          <td>Bananas (Must)</td>
+        </tr>
+        <tr>
+            <td>Fruit Chat (Optional)</td>
+            <td>Roll (Optional)</td>
+          </tr>
+        <tr>
+          <th colspan="2">Dinner</th>
+        </tr>
+        <tr>
+          <td>Rice</td>
+          <td>Roti</td>
+        </tr>
+        <tr>
+          <td>Salan</td>
+          <td>Salad</td>
+        </tr>
+        <tr>
+          <td>Raita</td>
+          <td>Drinks</td>
+        </tr>
+      </table>
+
+      <p class="donation">
+        Send your donations at 0300-xxxxxxx for a better Iftaar feel.
+      </p>
+
+      <p class="venue">📍 Venue: Islamabad</p>
+
+      <p class="closing">
+        See you there (if you're not busy pretending to be Daniyal).
+      </p>
+    </div>
+
+    <script>
+      function updateTimer(targetTime, elementId) {
+        let interval = setInterval(() => {
+          let now = new Date().getTime();
+          let distance = targetTime - now;
+
+          if (distance < 0) {
+            document.getElementById(elementId).innerHTML = "Time's up!";
+            clearInterval(interval);
+            return;
+          }
+
+          let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          let hours = Math.floor(
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+          );
+          let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+          document.getElementById(
+          elementId
+          ).innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }, 1000);
+      }
+
+      let iftarTime = new Date("March 10, 2025 18:12:00").getTime();
+      let dawatTime = new Date("March 10, 2025 19:00:00").getTime();
+
+      updateTimer(iftarTime, "iftar-timer");
+      updateTimer(dawatTime, "dawat-timer");
+    </script>
+</body>
+</html>
